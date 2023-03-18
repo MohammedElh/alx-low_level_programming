@@ -1,6 +1,6 @@
-#include < stdlib.h >
-#include < time.h >
-#include < stdio.h >
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
  *main - The main determines if a n is positive, negative or zero.
