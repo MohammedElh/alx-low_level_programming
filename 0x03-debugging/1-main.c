@@ -18,7 +18,6 @@ int main(void)
 *}
 *dvf
 *dvdv
-*gb
 */
 	printf("Infinite loop avoided! \\o/\n");
 	return (0);
