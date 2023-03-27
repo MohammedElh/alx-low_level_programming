@@ -4,7 +4,7 @@
  * str_len - calculate the length of a string
  * @s: the string
  * Return: return the length
- */
+  */
 
 int str_len(char *s)
 {
@@ -28,7 +28,6 @@ int _atoi(char *s)
 	int sign;
 	int i;
 	int len;
-
 	i = 0;
 	len = str_len(s);
 	sign = 1;
@@ -37,7 +36,7 @@ int _atoi(char *s)
 	{
 		if (s[i] == '-')
 			sign *= -1;
-		i++;					
+		i++;
 	}
 	if (len > i)
 	{
@@ -58,7 +57,7 @@ int _atoi(char *s)
 				result += s[i] - 48;
 				i++;
 			}
-		}	
+		}
 	}
 	return (result);
 }
